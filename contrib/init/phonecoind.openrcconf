@@ -1,0 +1,26 @@
+# /etc/conf.d/olympicd: config file for /etc/init.d/olympicd
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/olympic/olympic.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/olympicd"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/olympicd.pid"
+
+# Where to write olympicd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/olympicd"
+
+# User and group to own olympicd process
+#BITCOIND_USER="olympic"
+#BITCOIND_GROUP="olympic"
+
+# Path to olympicd executable
+#BITCOIND_BIN="/usr/bin/olympicd"
+
+# Nice value to run olympicd under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""

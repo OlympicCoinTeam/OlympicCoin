@@ -1,0 +1,29 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/olympic_bg.qm</file>
+        <file alias="ca">locale/olympic_ca.qm</file>
+        <file alias="cs">locale/olympic_cs.qm</file>
+        <file alias="da">locale/olympic_da.qm</file>
+        <file alias="de">locale/olympic_de.qm</file>
+        <file alias="en">locale/olympic_en.qm</file>
+        <file alias="en_US">locale/olympic_en_US.qm</file>
+        <file alias="es">locale/olympic_es.qm</file>
+        <file alias="fi">locale/olympic_fi.qm</file>
+        <file alias="fr_FR">locale/olympic_fr_FR.qm</file>
+        <file alias="it">locale/olympic_it.qm</file>
+        <file alias="ja">locale/olympic_ja.qm</file>
+        <file alias="ko_KR">locale/olympic_ko_KR.qm</file>
+        <file alias="nl">locale/olympic_nl.qm</file>
+        <file alias="pl">locale/olympic_pl.qm</file>
+        <file alias="pt">locale/olympic_pt.qm</file>
+        <file alias="pt_BR">locale/olympic_pt_BR.qm</file>
+        <file alias="ro_RO">locale/olympic_ro_RO.qm</file>
+        <file alias="ru">locale/olympic_ru.qm</file>
+        <file alias="sk">locale/olympic_sk.qm</file>
+        <file alias="sv">locale/olympic_sv.qm</file>
+        <file alias="tr">locale/olympic_tr.qm</file>
+        <file alias="uk">locale/olympic_uk.qm</file>
+        <file alias="zh_CN">locale/olympic_zh_CN.qm</file>
+        <file alias="zh_TW">locale/olympic_zh_TW.qm</file>
+    </qresource>
+</RCC>

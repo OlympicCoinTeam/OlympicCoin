@@ -1,0 +1,26 @@
+[Unit]
+Description=OlympicCoin's distributed currency daemon
+After=network.target
+
+[Service]
+User=olympic
+Group=olympic
+
+Type=forking
+PIDFile=/var/lib/olympicd/olympicd.pid
+
+ExecStart=/usr/bin/olympicd -daemon -pid=/var/lib/olympicd/olympicd.pid \
+          -conf=/etc/olympic/olympic.conf -datadir=/var/lib/olympicd
+
+ExecStop=-/usr/bin/olympic-cli -conf=/etc/olympic/olympic.conf \
+         -datadir=/var/lib/olympicd stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

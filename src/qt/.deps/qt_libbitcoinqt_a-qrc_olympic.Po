@@ -1,0 +1,4 @@
+qt/qt_libbitcoinqt_a-qrc_olympic.o: qt/qrc_olympic.cpp \
+ /usr/include/stdc-predef.h
+
+/usr/include/stdc-predef.h:
