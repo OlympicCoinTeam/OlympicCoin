@@ -15,7 +15,7 @@ Join our group at [Discord](https://discord.gg/QwQdNBd)
 <tr><td>Consensus algorithm</td><td>PoS/Masternode</td></tr>
 <tr><td>Hashing algorithm (premine)</td><td>Quark</td></tr>
 <tr><td>Max Coin Supply</td><td>3,000,000,000</td></tr>
-<tr><td>Premine</td><td>750M OLMP</td></tr>
+<tr><td>Premine</td><td>75M OLMP</td></tr>
 <tr><td>Block Reward</td><td>100 OLMP</td></tr>
 <tr><td>Blocksize</td><td>1 MB</td></tr>
 <tr><td>Blocktime average</td><td>1 min </td></tr>
